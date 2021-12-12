@@ -1,0 +1,30 @@
+{
+  "name": "Akali",
+  "id": "akali",
+  "version": "${version}",
+  "schemaVersion": 1,
+  "description": "Adds adorable red pandas into your world! Maybe you can tame them and be your own companion? :3",
+  "authors": [
+    "Noel <cutie@floofy.dev>"
+  ],
+  "contact": {
+    "sources": "https://github.com/auguwu/Akali",
+    "issues": "https://github.com/auguwu/Akali/issues"
+  },
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "default",
+        "value": "gay.floof.mods.akali.Akali"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.11",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=16"
+  }
+}
